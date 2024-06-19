@@ -21,7 +21,7 @@ function signIn() {
   }
 
   if (isCorrectEmailAndPassword(loginEmail, loginPassword)) {
-    window.location.href = "..\\Dish-A-Day-Recipe-Website\\index.html";
+    window.location.href = "..\\culinary_quest\\index.html";
   } else {
     swal({
       text: "Incorrect email or password",
